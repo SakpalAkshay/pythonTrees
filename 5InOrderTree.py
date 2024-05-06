@@ -26,9 +26,9 @@ def printInOrder(root): #Left Root Right
         return
     
     
-    printPostOrder(root.left)
+    printInOrder(root.left)
     print(root.data)
-    printPostOrder(root.right)
+    printInOrder(root.right)
     
 
 
